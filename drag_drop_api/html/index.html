@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop API</title>
+    <link rel="stylesheet" href="/drag_drop_api/styles/style.css">
+</head>
+<body>
+    <div class="main">
+        <h1 id="pt1">
+            Can you identify which goes where?
+        </h1> 
+        <table class="Table">
+            <tr>
+                <td colspan="2">
+                    <h1 id="dd">Drag and Drop the following</h1>
+                </td>
+            </tr>
+            <tr>
+                <td id="CompleteList">
+                    <button class="draggable" draggable="true" id="Python">Python</button>
+                    <button class="draggable" draggable="true" id="Java">Java</button>
+                    <button class="draggable" draggable="true" id="CSS">CSS</button>
+                    <button class="draggable" draggable="true" id="JavaScript">JavaScript</button>
+                    <button class="draggable" draggable="true" id="HTML">HTML</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="container">
+                        <div class="FrontEnd" id="leftContainer">
+                            <div class="droppable" draggable="true">
+                                <!-- drop the elements here -->
+                            </div>
+                        </div>
+                        <div class="BackEnd" id="rightContainer">
+                            <div class="droppable" draggable="true">
+                                <!-- drop the elements here -->
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+</body>
+</html>
+
