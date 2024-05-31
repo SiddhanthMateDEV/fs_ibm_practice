@@ -1,0 +1,4 @@
+Going to add the rest later:
+
+npm install mongodb@4.1
+npm i express mongoose nodemon dotenv
