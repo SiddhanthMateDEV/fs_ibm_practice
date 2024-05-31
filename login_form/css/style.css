@@ -1,0 +1,43 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin: 0;
+}
+
+.container{
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+}
+
+button{
+    padding: 5px;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+
+    border-radius: 5px;
+    width: 100px;
+}
+
+button:hover{
+    background-color: red;
+}
